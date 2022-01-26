@@ -1,0 +1,16 @@
+// Common
+@import "common/variables.scss";
+@import "common/fonts.scss";
+
+// Blocks
+@import "blocks/body.scss";
+@import "blocks/header.scss";
+@import "blocks/inteko.scss";
+@import "blocks/projects.scss";
+@import "blocks/statistics.scss";
+@import "blocks/staff.scss";
+@import "blocks/suggestions.scss";
+
+//Global
+@import "global/reset";
+@import "global/normalize";

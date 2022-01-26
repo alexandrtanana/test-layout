@@ -1,0 +1,18 @@
+.body-container {
+
+		width: 300px;
+		margin: 0 auto;
+		// background-color: green;
+
+		@media (min-width: $xs){
+			width: 610px;
+		}
+
+		@media (min-width: $s) {
+			width: 930px;
+		}
+
+		@media (min-width: $m) {
+			width: 1250px;
+		}
+}
