@@ -1,0 +1,39 @@
+.statistics__title {
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #4764b0;
+}
+
+.statistics__wrap {
+	display: flex;
+}
+
+.statistics__desc {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+.statistics__wraper {
+	display: flex;
+	flex-direction: column;
+}
+
+.statistics__text span {
+	text-transform: uppercase;
+}
+
+.statistics__text b {
+	font-size: 36px;
+	line-height: 32px;
+}
+
+.statistics__list  {
+	width: 280px;
+	background-color: #fff;
+}
+
+.statistics__item {
+	font-size: 12px;
+	line-height: 18px;
+}

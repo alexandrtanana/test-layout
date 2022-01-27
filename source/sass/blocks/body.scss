@@ -1,8 +1,12 @@
-.body-container {
+.body {
+	font-family: "Arial", sans-serif;
+}
 
+.body-container {
 		width: 300px;
 		margin: 0 auto;
-		// background-color: green;
+		background-color: #f5f0f0;
+		margin-top: 5px;
 
 		@media (min-width: $xs){
 			width: 610px;

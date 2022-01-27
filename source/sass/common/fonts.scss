@@ -1,0 +1,17 @@
+// Regular
+@font-face {
+  font-family: "Arial";
+  font-weight: normal;
+  src:
+    local("Arial Normal"),
+    url("../fonts/ArialMT.woff") format("woff");
+}
+
+// Bold
+@font-face {
+  font-family: "Arial";
+  font-weight: bold;
+  src:
+    local("Arial Bold"),
+    url("..//fonts/Arial-BoldMT.woff") format("woff");
+}
