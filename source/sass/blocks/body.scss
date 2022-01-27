@@ -7,6 +7,9 @@
 		margin: 0 auto;
 		background-color: #f5f0f0;
 		margin-top: 5px;
+		min-height: 100%;
+		padding-bottom: 13px;
+    margin-bottom: 30px;
 
 		@media (min-width: $xs){
 			width: 610px;

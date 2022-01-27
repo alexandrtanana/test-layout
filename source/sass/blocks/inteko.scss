@@ -1,7 +1,34 @@
+.inteko {
+	display: flex;
+  justify-content: end;
+}
+
+.inteko__border {
+	display: flex;
+	flex-direction: column;
+	width: 290px;
+	border-left: 1px solid #d2c8c8;
+	border-bottom: 1px solid #d2c8c8;
+}
+
+.inteko__image {
+	display: flex;
+	justify-content: end;
+}
+
 .inteko__wrap {
 	width: 280px;
 	background-color: #fff;
-	padding-top: 48px;
+	padding-top: 44px;
+	padding-bottom: 27px;
+	position: relative;
+	top: -40px;
+	left: -10px;
+}
+
+.inteko__wraper {
+	width: 240px;
+	padding-left: 26px;
 }
 
 .inteko__title {
@@ -9,9 +36,22 @@
 	font-size: 24px;
 	line-height: 28px;
 	color: #4764b0;
+	padding-bottom: 14px;
 }
 
 .inteko__desc {
+	font-size: 12px;
+	line-height: 18px;
+	padding-bottom: 9px;
+}
+
+.inteko__desc-desc {
+	font-size: 12px;
+	line-height: 18px;
+	padding-bottom: 8px;
+}
+
+.inteko__desc-text {
 	font-size: 12px;
 	line-height: 18px;
 }
