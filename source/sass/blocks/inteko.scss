@@ -1,19 +1,39 @@
 .inteko {
 	display: flex;
-  justify-content: end;
-}
-
-.inteko__border {
-	display: flex;
-	flex-direction: column;
-	width: 290px;
-	border-left: 1px solid #d2c8c8;
-	border-bottom: 1px solid #d2c8c8;
+  flex-direction: column;
 }
 
 .inteko__image {
 	display: flex;
-	justify-content: end;
+	justify-content: flex-end;
+}
+
+.inteko__image-wrap {
+	width: 280px;
+	display: flex;
+	justify-content: flex-end;
+
+	@media (min-width: $s) {
+		width: 100%;
+	}
+}
+
+.inteko__img {
+	min-width: 280px;
+	width: 100%;
+  height: auto;
+
+	@media (min-width: $s) {
+		width: 550px;
+	}
+
+	@media (min-width: $m) {
+		width: 750px;
+	}
+
+	@media (min-width: $l) {
+		width: 920px;
+	}
 }
 
 .inteko__wrap {
@@ -22,13 +42,43 @@
 	padding-top: 44px;
 	padding-bottom: 27px;
 	position: relative;
-	top: -40px;
-	left: -10px;
+	top: -39px;
+	margin-bottom: -2px;
+
+	@media (min-width: $s) {
+		width: 380px;
+	}
+
+	@media (min-width: $s) {
+		width: 480px;
+	}
+
+	@media (min-width: $l) {
+		position: relative;
+		margin-top: -20px;
+    margin-bottom: 199px;
+		width: 549px;
+		padding-bottom: 54px;
+		margin-top: -466px;
+	}
 }
 
 .inteko__wraper {
 	width: 240px;
 	padding-left: 26px;
+
+	@media (min-width: $s) {
+		width: 340px;
+	}
+
+	@media (min-width: $m) {
+		width: 440px;
+	}
+
+	@media (min-width: $l) {
+		width: 455px;
+		padding-left: 59px;
+	}
 }
 
 .inteko__title {
@@ -37,23 +87,46 @@
 	line-height: 28px;
 	color: #4764b0;
 	padding-bottom: 14px;
+
+	@media (min-width: $l) {
+		font-size: 32px;
+	  line-height: 38px;
+		padding-bottom: 16px;
+    padding-top: 4px;
+	}
 }
 
 .inteko__desc {
 	font-size: 12px;
 	line-height: 18px;
 	padding-bottom: 9px;
+
+	@media (min-width: $l) {
+		font-size: 16px;
+		line-height: 24px;
+	}
 }
 
 .inteko__desc-desc {
 	font-size: 12px;
 	line-height: 18px;
 	padding-bottom: 8px;
+
+	@media (min-width: $l) {
+		font-size: 16px;
+		line-height: 24px;
+		padding-bottom: 11px;
+	}
 }
 
 .inteko__desc-text {
 	font-size: 12px;
 	line-height: 18px;
+
+	@media (min-width: $l) {
+		font-size: 16px;
+		line-height: 24px;
+	}
 }
 
 .inteko__desc span {

@@ -3,23 +3,40 @@
 }
 
 .body-container {
-		width: 300px;
-		margin: 0 auto;
-		background-color: #f5f0f0;
-		margin-top: 5px;
-		min-height: 100%;
-		padding-bottom: 13px;
-    margin-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin: 0 auto;
+	background-color: #f5f0f0;
+	margin-top: 5px;
+	min-height: 100%;
+	padding-bottom: 13px;
+  margin-bottom: 30px;
 
-		@media (min-width: $xs){
-			width: 610px;
-		}
+	@media (min-width: $s){
+		width: 610px;
+	}
 
-		@media (min-width: $s) {
-			width: 930px;
-		}
+	@media (min-width: $m) {
+		width: 930px;
+		padding-bottom: 7px;
+	}
 
-		@media (min-width: $m) {
-			width: 1250px;
-		}
+	@media (min-width: $l) {
+		width: 1250px;
+	}
+}
+
+
+.body__svg-line1 {
+
+	@media (max-width: $l) {
+		display: none;
+	}
+
+	@media (min-width: $l) {
+		position: absolute;
+    margin-left: 297px;
+    margin-top: 43px;
+  }
 }

@@ -3,4 +3,32 @@
 	padding-top: 18px;
 	padding-bottom: 27px;
 	padding-left: 20px;
+
+	@media (min-width: $l) {
+		padding-top: 83px;
+		padding-left: 59px;
+		padding-bottom: 38px;
+		display: flex;
+    justify-content: space-between;
+	}
+}
+
+.header-link__svg-logo {
+
+	@media (min-width: $m) {
+		width: 150px;
+		height: 40px;
+	}
+}
+
+.header-link__svg-world {
+	
+	@media (max-width: $l) {
+		display: none;
+	}
+
+	@media (min-width: $l) {
+		padding-right: 61px;
+    padding-top: 10px;
+  }
 }

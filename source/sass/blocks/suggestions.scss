@@ -1,5 +1,27 @@
 .suggestions {
 	margin-top: 54px;
+	width: 280px;
+
+	@media (min-width: $s) {
+		width: 550px;
+	}
+
+	@media (min-width: $l) {
+		margin-top: 97px;
+		width: 1016px;
+	}
+}
+
+.suggestions__svg-line {
+
+	@media (max-width: $l) {
+		display: none;
+	}
+
+	@media (min-width: $l) {
+		position: absolute;
+    margin-top: -44px;
+	}
 }
 
 .suggestions__title {
@@ -10,19 +32,49 @@
 	padding-left: 30px;
 	margin-bottom: 30px;
 
+
+	@media (min-width: $l) {
+		font-size: 32px;
+	  line-height: 38px;
+		padding-left: 329px;
+		margin-bottom: 102px;
+	}
 }
 
 .suggestions__slider {
 	display: flex;
 	flex-direction: column;
-	margin-left: 20px;
+}
+
+.suggestions__slider-image {
+	margin-top: -2px;
 	width: 280px;
-	padding-left: 20px;
+	height: auto;
+
+	@media (min-width: $s) {
+		width: 550px;
+	}
+
+	@media (min-width: $s) {
+		position: relative;
+	}
 }
 
 .suggestions__slider-img {
-	margin-top: -2px;
-	margin-left: -40px;
+
+	@media (min-width: $s) {
+		min-width: 280px;
+		width: 100%;
+		height: auto;
+	}
+
+	@media (min-width: $m) {
+		width: 750px;
+	}
+
+	@media (min-width: $l) {
+		width: 800px;
+	}
 }
 
 .suggestions__slider-text {
@@ -30,14 +82,46 @@
 	width: 280px;
 	position: relative;
 	top: -43px;
-	left: -20px;
+	display: flex;
+  margin-left: 20px;
+
+	@media (min-width: $s) {
+		width: 380px;
+		margin-left: 230px;
+	}
+
+	@media (min-width: $m) {
+		width: 480px;
+		margin-left: 450px;
+	}
+
+	@media (min-width: $l) {
+		width: 470px;
+		margin-top: -587px;
+		padding-bottom: 7px;
+		margin-left: 780px;
+	}
 }
 
 .suggestions__slider-list {
 	padding-top: 28px;
 	width: 225px;
 	padding-left: 26px;
-	margin-bottom: 33px;
+	margin-bottom: 25px;
+
+	@media (min-width: $s) {
+		width: 325px;
+	}
+
+	@media (min-width: $m) {
+		width: 425px;
+	}
+
+	@media (min-width: $l) {
+		width: 331px;
+    padding-left: 63px;
+    padding-top: 44px;
+	}
 }
 
 .suggestions__slider-item {
@@ -45,10 +129,30 @@
 	line-height: 18px;
 	display: -webkit-box;
 	margin-bottom: 8px;
+
+	@media (min-width: $l) {
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 10px;
+	}
 }
 
 .suggestions__slider-svg {
 	position: relative;
   top: -3px;
   right: 6px;
+}
+
+
+.suggestions__slider-button {
+	@media (max-width: $l) {
+		display: none;
+	}
+
+	@media (min-width: $l) {
+		display: flex;
+		position: relative;
+		top: -104px;
+		left: 60px;
+	}
 }
